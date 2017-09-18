@@ -1,0 +1,131 @@
+/*Cores Utilizadas
+	Navbar: #effff3
+*/
+
+/*Tags*/
+
+body {
+	background-image: url(../images/bg_main.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Pacifico;	
+}
+
+h1, h2, h3 {
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+/*Classes*/
+
+.logo-vertente {
+	width: 20px;
+	height: 20px;
+}
+
+.navbar-logo {
+	width: 45px;
+	height: 45px;
+}
+
+.navbar-brand {
+	padding: 3px 15px 3px 3px;
+}
+
+.link {
+	padding: 3px 15px 3px 3px;
+}
+
+.round-border {
+	border-radius: 30px;
+}
+
+.center {
+	text-align: center;
+}
+
+.photo-size {
+	width: 400px;
+	height: 400px;
+}
+
+.round-photo-border {
+	border-radius: 150px;
+}
+
+.container {
+	font-family: Roboto;
+}
+
+.jumbotron {
+	margin-top: 70px;
+	color: white;
+	background: rgba(0,0,0,0.4);
+}
+
+.showcase-window {
+	color: white;
+	background-color: rgba(0,0,0,0.8);
+	border-radius: 10px;
+	padding: 20px 20px 20px 20px;
+	margin: 5px;
+}
+
+.profile-picture {
+
+}
+
+.footer {
+	border-top: 2px solid gray;
+	font-family: Petrona;
+	background-color: lightgray;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.hr-fade {
+  border: 0; 
+  height: 2px; 
+  background-image: -webkit-linear-gradient(left, rgba(240,240,240,0), #8c8b8b, rgba(240,240,240,0));
+  background-image: -moz-linear-gradient(left, rgba(240,240,240,0), #8c8b8b, rgba(240,240,240,0));
+  background-image: -ms-linear-gradient(left, rgba(240,240,240,0), #8c8b8b, rgba(240,240,240,0));
+  background-image: -o-linear-gradient(left, rgba(240,240,240,0), #8c8b8b, rgba(240,240,240,0)); 
+}
+
+.no-bottom {
+	margin-bottom: 0px;
+}
+
+.black-text{
+	color: black;
+}
+
+/*classes-cor de ramo*/
+/*
+	dev:   rgb(198, 220, 255)
+	games: rgb(237, 183, 255)
+	edu:   rgb(255, 220, 183)
+	mus:   rgb(255, 188, 188)
+*/
+
+.color-dev-glass{
+	background-color: rgba(198, 220, 255, 0.6);
+}
+
+.color-dev{
+
+}
+
+h3 {
+	margin-top: 10px;
+}
+
+.font-pacifico {
+	font-family: Pacifico;
+}
