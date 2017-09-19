@@ -89,6 +89,7 @@ h1, h2, h3 {
 	padding-bottom: 1px;
 }
 
+
 .hr-fade {
   border: 0; 
   height: 2px; 
@@ -108,18 +109,31 @@ h1, h2, h3 {
 
 /*classes-cor de ramo*/
 /*
-	dev:   rgb(198, 220, 255)
-	games: rgb(237, 183, 255)
-	edu:   rgb(255, 220, 183)
-	mus:   rgb(255, 188, 188)
+	main:  rgb(239, 255, 243) ou #effff3;
+	dev:   rgb(198, 220, 255) ou #c6dcff
+	games: rgb(237, 183, 255) ou #edb7ff
+	edu:   rgb(255, 220, 183) ou #ffdcb7
+	mus:   rgb(255, 188, 188) ou #ffbcbc
 */
 
 .color-dev-glass{
 	background-color: rgba(198, 220, 255, 0.6);
 }
 
-.color-dev{
+.color-games-glass{
+	background-color: rgba(237, 183, 255, 0.6);
+}
 
+.color-edu-glass {
+	background-color: rgba(255, 220, 183, 0.6);
+}
+
+.color-mus-glass {
+	background-color: rgba(255, 188, 188, 0.6);
+}
+
+.page-start {
+	margin-top: 70px;
 }
 
 h3 {
@@ -129,3 +143,9 @@ h3 {
 .font-pacifico {
 	font-family: Pacifico;
 }
+
+h1	{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
